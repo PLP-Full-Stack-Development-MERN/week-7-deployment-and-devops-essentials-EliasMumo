@@ -1,66 +1,69 @@
-**Week 7: Deployment and DevOps for MERN Applications**
+# Welcome to your Lovable project
 
-**Objective:**
+## Project info
 
-- Apply DevOps practices to deploy and manage a MERN stack application.
-- Utilize version control, CI/CD pipelines, and cloud hosting platforms.
-- Implement monitoring and logging for application reliability.
+**URL**: https://lovable.dev/projects/eda32d4f-dd85-47e4-ba2d-5fce1ffd0e45
 
-**Project Suggestion:** Build and deploy a "Personal Blog Platform" where users can create, edit, and publish blog posts. The goal is to focus on deploying and maintaining the application effectively.
+## How can I edit this code?
 
-**Instructions:**
+There are several ways of editing your application.
 
-1. **Project Setup:**
-   - Create a new project folder called `mern-blog-platform`.
-   - Ensure the project includes:
-     - A backend with Express.js and MongoDB.
-     - A frontend built with React.
-   
-2. **Version Control:**
-   - Initialize a Git repository and push code to GitHub.
-   - Use feature branches for new functionalities.
-   - Document a clear commit history.
+**Use Lovable**
 
-3. **Continuous Integration:**
-   - Set up GitHub Actions for automated testing on every push.
-   - Ensure test cases run before merging changes.
-   - Notify contributors of failed builds.
+Simply visit the [Lovable Project](https://lovable.dev/projects/eda32d4f-dd85-47e4-ba2d-5fce1ffd0e45) and start prompting.
 
-4. **Backend Deployment:**
-   - Deploy the backend using Render.
-   - Configure environment variables securely.
-   - Implement PM2 for process management.
+Changes made via Lovable will be committed automatically to this repo.
 
-5. **Frontend Deployment:**
-   - Deploy the frontend on Vercel.
-   - Connect the frontend to the deployed backend API.
-   - Ensure responsiveness and performance optimization.
+**Use your preferred IDE**
 
-6. **Error Handling and Monitoring:**
-   - Integrate a logging tool (e.g., Winston, Morgan) for tracking requests.
-   - Implement Sentry for frontend error tracking.
-   - Monitor server logs using Render's dashboard.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-7. **Security Considerations:**
-   - Use HTTPS for secure communication.
-   - Store sensitive credentials using environment variables.
-   - Implement basic authentication for accessing the admin panel.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-8. **Documentation:**
-   - Write a `README.md` file that includes:
-     - Project overview.
-     - Steps to install and deploy the application.
-     - Explanation of CI/CD pipeline setup.
-     - Monitoring and security measures.
+Follow these steps:
 
-9. **Submission:**
-   - Push your code to your GitHub repository.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-**Evaluation Criteria:**
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-- Successful deployment of both backend and frontend.
-- Proper setup of CI/CD pipelines.
-- Effective use of monitoring and logging tools.
-- Secure handling of environment variables.
-- Clear and structured documentation.
+# Step 3: Install the necessary dependencies.
+npm i
 
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/eda32d4f-dd85-47e4-ba2d-5fce1ffd0e45) and click on Share -> Publish.
+
+## I want to use a custom domain - is that possible?
+
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
